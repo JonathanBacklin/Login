@@ -10,8 +10,7 @@ body {
 }
 
 .container {
-display: flex;
-justify-content: center;
+
 }
 
 .userlabel {
@@ -20,17 +19,13 @@ justify-content: center;
 .passlabel {
   font-weight: 700;
 }
-#Username {
+#input {
   background: none;
   outline: outset 1px;
   border:none;
 }
 
-#Password {
-  background: none;
-  outline: outset 1px;
-  border:none;
-}
+
 ::placeholder {
   color: black;
   font-weight: 300;
@@ -44,6 +39,7 @@ justify-content: center;
 
 .card {
   background: lightgrey;
+  margin-top: 1rem;
   text-align: center;
   padding: 1rem;
   display: block;
@@ -51,6 +47,7 @@ justify-content: center;
   position: relative;
 }
 .card-body {
+
   font-weight: 800;
   font-size: 30px;
 }

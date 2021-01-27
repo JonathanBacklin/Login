@@ -5,7 +5,7 @@
     <title>Register</title>
     <!-- Bootstrap CSS file -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="Register.css">
     <meta charset="utf-8">
   </head>
   <body>
@@ -27,13 +27,16 @@
 
         <!-- Username -->
         <label class="userlabel">Username:</label><br>
-         <input type="text" id="Username" placeholder="Enter Username" minlength="10" maxlength="30"><br>
+         <input type="text" id="input" placeholder="Enter Username" minlength="10" maxlength="30"><br>
          <small id="passwordHelpInline" class="text-muted">Must be 10-30 characters long.</small> <br>
+         <label class="userlabel">Age:</label><br>
+          <input type="number" id="input" placeholder="Enter Age" ><br>
+
          <label class="passlabel">Password:</label><br>
-         <input type="Password" id="Password" minlength="8" maxlength="20" placeholder="Enter Password" required> <br>
+         <input type="Password" id="input" minlength="8" maxlength="20" placeholder="Enter Password" required> <br>
          <small id="passwordHelpInline" class="text-muted">Must be 8-20 characters long.</small> <br>
          <label class="passlabel">Repeat password:</label><br>
-         <input type="Password" id="Password" placeholder="Repeat Password" required>
+         <input type="Password" id="input" placeholder="Repeat Password" required>
       <!-- Checkboxes -->
       <div class="form-check-inline" required>
       <label class="form-check-label">
@@ -43,6 +46,11 @@
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" value="">Female
   </label>
+  <select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+  </select>
       </div>
 
 </div>
