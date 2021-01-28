@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: url(../Other/londonbridge.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+.userlabel {
+  font-weight: 700;
+}
+.passlabel {
+  font-weight: 700;
+}
+
+#input {
+  background: none;
+  outline: none;
+  border:none;
+  border-radius: 6px;
+  background: lightgrey;
+  padding-left: 12px;
+}
+::placeholder {
+  color: black;
+  font-weight: 300;
+}
+.form-check-label {
+  margin-top: 5px;
+}
+.btn {
+  margin-top: 5px;
+}
+
+.card {
+  background: white;
+  text-align: center;
+  padding: 3rem;
+  display: block;
+  top: 50%;
+  position: relative;
+  border-radius: 15px;
+}
+.card-body {
+  font-weight: 800;
+  font-size: 30px;
+}
+.form-check-inline {
+  margin-left: 10px;
+}
+.buttons {
+  display: row;
+  padding:5px;
+  margin: 20px;
+}
