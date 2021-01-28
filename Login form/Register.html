@@ -30,13 +30,27 @@
          <input type="text" id="input" placeholder="Enter Username" minlength="10" maxlength="30"><br>
          <small id="passwordHelpInline" class="text-muted">Must be 10-30 characters long.</small> <br>
          <label class="userlabel">Age:</label><br>
-          <input type="number" maxlength="3" id="input" placeholder="Enter Age" ><br>
+          <input type="text" pattern="\d*" maxlength="3" id="input" placeholder="Enter Age" ><br>
 
+          <label class="userlabel">Email:</label><br>
+          <input type="email" id="input" name="email" placeholder="Enter Email"
+  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$"> <br>
          <label class="passlabel">Password:</label><br>
          <input type="Password" id="input" minlength="8" maxlength="20" placeholder="Enter Password" required> <br>
          <small id="passwordHelpInline" class="text-muted">Must be 8-20 characters long.</small> <br>
          <label class="passlabel">Repeat password:</label><br>
          <input type="Password" id="input" placeholder="Repeat Password" required>
+<div class="select">
+         <select>
+           <option class="dropdown" selected="" disabled>Continent</option>
+           <option>Europe</option>
+           <option>America</option>
+           <option>Africa</option>
+           <option>Asia</option>
+           <option>Antarctic</option>
+           <option>Australia</option>
+         </select>
+         </div>
       <!-- Checkboxes -->
       <div class="form-check-inline" required>
       <label class="form-check-label">
@@ -48,11 +62,7 @@
   </label>
 
       </div>
-      <select>
-        <option selected="Favorite drink" disabled>Favorite Drink</option>
-        <option>Coca Cola</option>
-        <option>Pepsi</option>
-      </select>
+
 </div>
 </div>
 </div>

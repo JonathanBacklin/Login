@@ -19,6 +19,11 @@ body {
 .passlabel {
   font-weight: 700;
 }
+
+.select {
+  background: none;
+  margin-top:5px;
+}
 #input {
   background: none;
   outline: outset 1px;
